@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 13px;
+}
+
+.wrapper {
+  margin: auto;
+  background-color: black;
+}
+
+.main-container {
+  margin: auto;
+  width: 300px;
+  background-color: hsl(0deg, 0%, 81%);
+}
+
+.profile-cards {
+  padding: 20px;
+}
+
+.card {
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 15px;
+}
+.card-one {
+  margin-top: 25px;
+  background-color: hsl(263deg, 55%, 52%);
+}
+.card-two {
+  background-color: hsl(217deg, 19%, 35%);
+}
+.card-three {
+  background-color: hsl(0deg, 0%, 100%);
+}
+.card-four {
+  background-color: hsl(219deg, 29%, 14%);
+}
+.card-five {
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+.card-header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.card-header .foto {
+  width: 30px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=output.css.map */
