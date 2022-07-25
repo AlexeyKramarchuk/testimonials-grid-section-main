@@ -14,7 +14,6 @@ $blue: hsl(210, 46%, 95%);
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 13px;
-    
 }
 
 .wrapper {
@@ -24,7 +23,7 @@ body {
 
 .main-container {
     margin: auto;
-    width: 300px;
+    width: 250px;
     background-color: $gray;
   }
 
@@ -37,7 +36,6 @@ body {
     padding: 20px;
     border-radius: 15px;
     &-one {
-        margin-top: 25px;
         background-color: $violet;
         }
     &-two {
@@ -53,6 +51,8 @@ body {
         background-color: $White;
         }
     }
+  
+
 
 .card-header {
     display: flex;
@@ -60,8 +60,60 @@ body {
     gap: 10px;
     .foto {
         width: 30px;
-        border: 1px solid #fff;
+        border: 1px solid $White;
         border-radius: 50%;
+        }
+    .name {
+        font-size: 12px;
+        color: $White;
+        }
+        .verified {
+            opacity: 50%;
         }
 }
 
+.card-text {
+    margin-top: 10px; 
+    color: $White;
+    .paragraph {
+        margin-top: 10px;
+        font-size: 10px;
+        opacity: 70%;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .main-container {
+        margin: auto;
+        width: 90%;
+        background-color: $gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .profile-cards {
+        font-size: 16px;
+        display: grid;
+        grid-template-columns: repeat(4, 200px);
+        grid-template-rows: repeat(2, auto);
+        gap: 20px;
+        .card-one {
+            grid-column: 1/3;
+        }
+        .card-two {
+            grid-column: 3/4;
+        }
+        .card-three {
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        .card-four {
+            grid-column: 2/4;
+        }
+        .card-five {
+            grid-column: 4/5;
+            grid-row: 1/3;
+        }
+      }
+}
