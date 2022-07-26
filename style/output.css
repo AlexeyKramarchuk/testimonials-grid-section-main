@@ -10,12 +10,13 @@ body {
 }
 
 .wrapper {
-  margin: auto;
-  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0deg, 0%, 81%);
 }
 
 .main-container {
-  margin: auto;
   width: 250px;
   background-color: hsl(0deg, 0%, 81%);
 }
@@ -61,6 +62,20 @@ body {
 }
 .card-header .verified {
   opacity: 50%;
+}
+
+.card-three .name {
+  color: hsl(219deg, 29%, 14%);
+}
+.card-three .card-text {
+  color: hsl(219deg, 29%, 14%);
+}
+
+.card-five .name {
+  color: hsl(219deg, 29%, 14%);
+}
+.card-five .card-text {
+  color: hsl(219deg, 29%, 14%);
 }
 
 .card-text {

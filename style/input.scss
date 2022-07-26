@@ -17,12 +17,13 @@ body {
 }
 
 .wrapper {
-    margin: auto;
-    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $gray;
 }
 
 .main-container {
-    margin: auto;
     width: 250px;
     background-color: $gray;
   }
@@ -52,6 +53,7 @@ body {
         }
     }
 
+    
 
 .card-header {
     display: flex;
@@ -69,6 +71,24 @@ body {
         .verified {
             opacity: 50%;
         }
+}
+
+.card-three {
+    .name {
+        color: $blackish-blue;
+    }
+    .card-text {
+        color: $blackish-blue;
+    }
+}
+
+.card-five {
+    .name {
+        color: $blackish-blue;
+    }
+    .card-text {
+        color: $blackish-blue;
+    }
 }
 
 .card-text {
