@@ -90,8 +90,8 @@ body {
 
 @media (min-width: 1440px) {
   .main-container {
-    margin: auto;
     width: 90%;
+    height: 100vh;
     background-color: hsl(0deg, 0%, 81%);
     display: flex;
     justify-content: center;
